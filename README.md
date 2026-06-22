@@ -27,3 +27,8 @@ python3 -m http.server 3000
 - 需 localhost/HTTPS 运行（摄像头权限）
 - 首次加载 MediaPipe 需 5-10 秒
 - 低端设备自动降级粒子数/Bloom/流动场分辨率
+
+## Credits
+
+- **smapdhpd-beep**：项目发起、设计决策、视觉调优、交互验收
+- **Claude (Anthropic)**：代码实现、架构设计、性能优化、文档归档
