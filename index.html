@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>teamlab-web-mvp</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- p5.js 1.10.x CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.min.js"></script>
+  <!-- MediaPipe Hands -->
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- 摄像头预览窗口（右下角 160×120，手骨架可视化） -->
+  <canvas id="previewCanvas" width="160" height="120"></canvas>
+
+  <script src="js/main.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/particles.js"></script>
+  <script src="js/ripple.js"></script>
+  <script src="js/hand-tracking.js"></script>
+  <script src="js/interaction.js"></script>
+  <script src="js/flowfield.js"></script>
+  <script src="js/bloom.js"></script>
+  <script src="js/scanner.js"></script>
+  <script src="js/creature.js"></script>
+  <script src="js/sketch.js"></script>
+  <script src="js/postprocess.js"></script>
+</body>
+</html>
