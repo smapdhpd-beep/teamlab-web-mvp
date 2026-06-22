@@ -2,6 +2,8 @@
 
 teamLab 风格实时交互粒子艺术生成器。
 
+![screenshot](assets/screenshot.png)
+
 ## 功能
 - 1500 发光粒子实时漂移
 - 鼠标/触摸/摄像头体感交互
